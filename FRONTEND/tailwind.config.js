@@ -1,0 +1,11 @@
+module.exports = {
+  content: [
+    "./src/**/*.{html,js,jsx}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [require("./node_modules/tw-elements/dist/plugin")],
+  plugins: [require("tw-elements/dist/plugin")],
+};
